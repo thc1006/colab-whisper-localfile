@@ -87,13 +87,14 @@ Or let the notebook pick the first audio file it sees.
 
 * RTF = speed-up factor vs. real-time audio length.
 
+```python
 ## Folder Structure
-
 colab-whisper-localfile/
 ├─ notebook.ipynb
 ├─ docs/
 │  └─ colab-workflow.png
 └─ LICENSE
+```
 
 ## License
 MIT ©
