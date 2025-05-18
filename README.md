@@ -1,9 +1,3 @@
-
----
-
-## 中文說明 — `README_zh.md`
-
-```markdown
 # Colab Whisper 本地檔語音轉文字
 
 在 Google Colab 直接把音檔丟進左邊 **Files** 面板即可啟動流程：  
@@ -54,8 +48,6 @@ MIT License ©
 
 A one-stop Google Colab notebook that **reads any audio file already present in `/content/`** (e.g. drag-and-drop in the Files pane or copy from Google Drive), converts it to 16 kHz mono WAV, runs an **offline Whisper model** for zh-TW transcription, converts Simplified → Traditional Chinese, and exports a UTF-8 TXT transcript that is both auto-downloaded and visible in the Files pane.
 
-![workflow diagram](docs/colab-workflow.png) <!-- optional -->
-
 ---
 
 ## Features
@@ -80,7 +72,6 @@ A one-stop Google Colab notebook that **reads any audio file already present in 
 
 ### Example cell
 
-```python
 # If you want to hard-code a filename:
 src_path = "/content/Foreign - 星期六 16-42 (1).m4a"
 Or let the notebook pick the first audio file it sees.
