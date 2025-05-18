@@ -10,7 +10,7 @@
 - **通吃所有音檔**：MP3、M4A、OGG、WAV… 只要 ffmpeg 能讀就行。  
 - **一鍵轉檔**：`pydub` 自動轉 16 kHz、單聲道、16-bit PCM。  
 - **離線 Whisper**：tiny~large 任選，不需 API Key，完全離線。  
-- **簡體 ➜ 繁體**：辨識結果自動以 OpenCC 轉繁體。  
+- **簡體 ➜ 繁體**：因為擔心會辨識成簡體字，因此最終辨識結果自動以 OpenCC 轉繁體。  
 - **自動匯出**：同名 `*_transcript.txt` 立即下載，亦顯示於 Files 面板。  
 
 ---
